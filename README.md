@@ -189,6 +189,77 @@ Esses dados alimentam o contexto do POB e influenciam as recomendações.
 
 ---
 
+## Prompt Final
+16 de jan.at 11:56
+
+Create a prototype of the VibeCod Finance App using the Prompt-Orchestrated Benchmarking (POB) framework.
+The app must combine conversational AI, deterministic evaluation, and gamification (badges and rewards).
+Development workflow integrates Microsoft Copilot (prompt design, documentation, evaluation) and Lovable (interface prototyping).
+Core Framework (POB)
+
+    ASR (Automatic Speech Recognition)
+        Convert speech to text.
+        Example input: "How much can I save this month and where to invest $2000 safely?"
+
+    Phenomenological Layer
+        Extract intents: "calculate monthly savings", "suggest safe investment".
+        Formalization: Ψ(oi | m) = E[f(oi)] → produces phenomenological score.
+
+    Multi-Dimensional Scoring
+        Evaluation operator: Φ : (oi, pk) → sik ∈ [0,1]^d.
+        Aggregated score: si = Σk wk sik , with Σk wk = 1.
+        Dimensions: phenomenological, semantic, numeric, contextual.
+
+    ORRS (Occam-Regularized Risk Score)
+        Formula: ORRS(oi) = min_{Ml ∈ M} [ l(si | Ml) + λC(Ml) ].
+        Penalizes complex or risky outputs, favors simple and safe recommendations.
+
+    TAR Filtering
+        Formula: r̃i = Σ_{k=1}^p ak(i) ri−k + εi.
+        Ensures bounded-input bounded-output stability across sessions.
+
+    Hallucination Risk Control
+        Formula: P(Hi = 1 | si) = σ( α0 + Σj αj (1 − si) ).
+        Uses sigmoid to estimate hallucination probability.
+
+    Acceptance & Logging
+        Final approved response delivered to user.
+        All prompts, scores, and decisions logged for auditability and reproducibility.
+
+Interface Requirements
+
+    Chat screen for natural language interaction.
+    History screen showing transactions and motivational messages.
+    Summary screen with balance, goals, achievements, and badges.
+    Universal Design: high contrast, adaptive fonts, screen reader compatibility.
+    Developed by Alexandre Augusto Benavides
+
+Gamification
+
+    Badges: Consistency, Savings, Smart Correction, Planner, Transparency.
+    Rewards: motivational feedback, visual seals, advanced reports, educational tips.
+    All badges and rewards validated via POB scoring and ORRS.
+
+Target Audience
+
+    Young adults starting financial management.
+    Busy professionals needing quick reports.
+    Users with low tolerance for complex numbers.
+    Researchers testing POB in real-world applications.
+
+Technologies (conceptual)
+
+    React Native (Expo)
+    Node.js + Express
+    SQLite / Firebase
+    Styled Components
+    POB Engine
+    Microsoft Copilot (prompt orchestration and documentation)
+    Lovable (interface prototyping)
+
+---    
+
+
 ## Status do Projeto
 
 🚧 **Em desenvolvimento (MVP)**
