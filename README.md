@@ -1,6 +1,9 @@
 # VibeCod
 
 **App de Finanças Pessoais com Prompt-Orchestrated Benchmarking (POB)**
+<img width="1920" height="1080" alt="Captura de tela de 2026-01-16 12-52-07" src="https://github.com/user-attachments/assets/93a9a6e7-4bc4-4975-a211-06ab34c3e0f9" />
+<img width="1920" height="1080" alt="Captura de tela de 2026-01-16 12-52-14" src="https://github.com/user-attachments/assets/faed4996-dfd7-4e8e-a46b-884c2bbe7a4a" />
+<img width="1920" height="1080" alt="Captura de tela de 2026-01-16 12-52-20" src="https://github.com/user-attachments/assets/65f07bdf-14ac-4070-952b-dd7c9b2d0e61" />
 
 ## Visão Geral
 
