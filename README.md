@@ -264,9 +264,3 @@ Technologies (conceptual)
 
 🚧 **Em desenvolvimento (MVP)**
 Foco atual: validação do fluxo POB, estabilidade das respostas e experiência do usuário.
-
-
-Status do Projeto
-
-🚧 Em desenvolvimento (MVP)
-Foco atual: validação do fluxo POB, estabilidade das respostas e experiência do usuário.
