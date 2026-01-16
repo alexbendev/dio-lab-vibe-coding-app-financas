@@ -268,9 +268,7 @@ Technologies (conceptual)
 
 ---    
 
-Reflexão
-
-Relato de uso — versão aprimorada
+## Reflexão
 
 Uso de Copilot e Lovable acelerou significativamente o fluxo de trabalho: vibe coding tornou-se uma forma eficiente de prototipagem rápida para tomada de decisão, permitindo validar hipóteses e obter feedback real em minutos. Essa abordagem reduz o atrito e diminui a necessidade de estudos longos e documentação extensa nas fases iniciais.
 Entretanto, isso não elimina a necessidade da engenharia de software básica: arquitetura, testes, segurança e manutenção continuam essenciais para transformar protótipos em produtos confiáveis e escaláveis.
