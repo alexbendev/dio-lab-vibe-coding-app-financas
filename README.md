@@ -170,6 +170,10 @@ Esses dados alimentam o contexto do POB e influenciam as recomendações.
 
 ## Ferramentas de Apoio
 
+[cinnamon-2026-01-16T131534-0300.webm](https://github.com/user-attachments/assets/da82ef7a-e573-449b-bd96-b01891f4ecfd)
+
+https://github.com/user-attachments/assets/8f76a2b4-36d7-4264-92f1-9e503eb8578a
+
 * **Microsoft Copilot**
 
   * Estruturação e validação de prompts
